@@ -1,4 +1,4 @@
-# 📘 RAG ChatBot
+# RAG ChatBot
 
 A Retrieval-Augmented Generation (RAG) chatbot that allows users to
 upload PDF documents and ask context-aware questions. It
@@ -9,18 +9,18 @@ the uploaded content.
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+## Features
 
--   📄 Upload PDF files (up to 200MB)
--   🔍 Intelligent text extraction & chunking
--   🤖 Context-aware question answering using RAG
--   ⚡ Fast, accurate retrieval from vector database
--   💬 Chat interface for smooth conversational experience
--   🧠 Reduces hallucinations by grounding answers in the document
+-   Upload PDF files (up to 200MB)
+-   Intelligent text extraction & chunking
+-   Context-aware question answering using RAG
+-   Fast, accurate retrieval from vector database
+-   Chat interface for smooth conversational experience
+-   Reduces hallucinations by grounding answers in the document
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Python**
 -   **Streamlit** -- UI
@@ -30,9 +30,9 @@ the uploaded content.
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
+## Project Structure
 
-    📦 rag-chatbot
+    rag-chatbot
     ├── app.py               # Streamlit UI
     ├── rag_pipeline.py      # RAG logic (embeddings, retrieval, generation)
     ├── utils.py             # Helper functions
@@ -42,7 +42,7 @@ the uploaded content.
 
 ------------------------------------------------------------------------
 
-## 🧠 How It Works
+## How It Works
 
 1.  User uploads a PDF.
 2.  Text is extracted and split into chunks.
@@ -56,27 +56,27 @@ This ensures reliable, factual, and document-based responses.
 
 ------------------------------------------------------------------------
 
-## ▶️ Getting Started
+## Getting Started
 
-### 1️⃣ Install Dependencies
+### Install Dependencies
 
 ``` bash
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Run the Application
+### Run the Application
 
 ``` bash
 streamlit run app.py
 ```
 
-### 3️⃣ Open in Browser
+### Open in Browser
 
     http://localhost:8501
 
 ------------------------------------------------------------------------
 
-## 📤 How to Use
+## How to Use
 
 1.  Launch the app.
 2.  Upload a PDF using the file uploader.
@@ -85,13 +85,7 @@ streamlit run app.py
 
 ------------------------------------------------------------------------
 
-## 📸 Screenshots
-
-*Add UI screenshots here.*
-
-------------------------------------------------------------------------
-
-## 🧩 Future Enhancements
+## Future Enhancements
 
 -   Multi-PDF conversation support
 -   Embedding caching for faster reloads
@@ -100,15 +94,9 @@ streamlit run app.py
 
 ------------------------------------------------------------------------
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull
 requests.
-
-------------------------------------------------------------------------
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
 
 ------------------------------------------------------------------------
