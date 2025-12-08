@@ -30,18 +30,6 @@ the uploaded content.
 
 ------------------------------------------------------------------------
 
-## Project Structure
-
-    rag-chatbot
-    ├── app.py               # Streamlit UI
-    ├── rag_pipeline.py      # RAG logic (embeddings, retrieval, generation)
-    ├── utils.py             # Helper functions
-    ├── requirements.txt     # Dependencies
-    ├── README.md            # Project documentation
-    └── assets/              # Images, icons, etc.
-
-------------------------------------------------------------------------
-
 ## How It Works
 
 1.  User uploads a PDF.
