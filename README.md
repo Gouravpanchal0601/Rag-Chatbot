@@ -67,7 +67,7 @@ pip install -r requirements.txt
 ### Run the Application
 
 ``` bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 ### Open in Browser
