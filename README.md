@@ -17,6 +17,7 @@ the uploaded content.
 -   Fast, accurate retrieval from vector database
 -   Chat interface for smooth conversational experience
 -   Reduces hallucinations by grounding answers in the document
+-   General conversation outside pdf is also possible
 
 ------------------------------------------------------------------------
 
@@ -24,9 +25,9 @@ the uploaded content.
 
 -   **Python**
 -   **Streamlit** -- UI
--   **LangChain / LlamaIndex** -- RAG pipeline
--   **FAISS / ChromaDB** -- Vector database
--   **OpenAI / HuggingFace Embeddings**
+-   **LangChain** -- RAG pipeline
+-   **FAISS** -- Vector database
+-   **HuggingFace Embeddings**
 
 ------------------------------------------------------------------------
 
